@@ -20,7 +20,7 @@ class Home extends React.Component{
                 </Grid>
                 {Object.keys(DAYS).map(item=>(
                     <Grid item lg={3} md={4} sm={6} xs={12}>
-<PostContainer key={item} content={DAYS[item]}/> 
+<PostContainer identifier={item} content={DAYS[item]}/> 
 </Grid>  
                 ))}
             </Grid>

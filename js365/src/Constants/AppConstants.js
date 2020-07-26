@@ -1,0 +1,1 @@
+export const HOME_DESCRIPTION_LENGTH = 100;
